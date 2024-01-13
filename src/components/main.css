@@ -1,0 +1,48 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: cadetblue;
+}
+
+.submain_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  height: 15rem;
+  animation: zooming infinite 3s;
+}
+
+@keyframes zooming {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heading {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+button{
+    margin-top: 2rem;
+    margin-left: 2rem ;
+    font-size: large;
+    border-radius: 20cm;
+    padding: 0.2cm;
+}
+
+#no{
+  transition: all 0.3s ease;
+}
